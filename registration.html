@@ -4,181 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>registration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/login_reg.css">
 </head>
 <body>
-    <br>
-    <br>
-    <br>
+    <section class="d-flex justify-content-center align-items-center">
     
-    <div class="d-flex justify-content-center">
-        <div class="border border-danger m-5 p-5 d-flex justify-content-center h-25 w-50">
-            
-            <form action="">
-                <h3 class="d-flex justify-content-center border border-light" id="bg-design">Register Now!</h3>
-                <br>
-                <label for="">First Name :</label>
-                <br>
-                <input type="text">
-        
-                <br>
-                <br>
+        <div class="m-5 border border-4 rounded p-5">
+            <h4 class="border border-4 rounder d-flex justify-content-center align-items-center mb-5 p-2" id="reg-h4-design">Register Now!!!</h4>
+            <form action="" class=" box-design">
+                <table>
+                    <tr>
+                        <td>First Name: </td>
+                        <td><input type="text" class="rounded"></td>
+                    </tr>
 
-                <label for="">Last Name :</label>
-                
-                <input type="text">
-    
-                <br>
-                <br>
+                    <tr>
+                        <td>Last Name: </td>
+                        <td><input type="text" class="rounded"></td>
+                    </tr>
 
-                <label for="">Email :</label>
-                <br>
-                <input type="email">
-    
-                <br>
-                <br>
+                    <tr>
+                        <td>Username: </td>
+                        <td><input type="text" class="rounded"></td>
+                    </tr>
 
-                <label for="">Address :</label>
-                <br>
-                <input type="text">
-    
-                <br>
-                <br>
+                    <tr>
+                        <td>Email: </td>
+                        <td><input type="text" class="rounded"></td>
+                    </tr>
 
-                <label for="">Password :</label>
-                <br>
-                <input type="password">
-    
-                <br>
-                <br>
+                    <tr>
+                        <td>Password: </td>
+                        <td><input type="password" class="rounded"></td>
+                    </tr>
 
-                <label for="">Confirm Password :</label>
-                <br>
-                <input type="password">
-    
-                <br>
-                <br>
+                    <tr>
+                        <td>Confirm Password: </td>
+                        <td><input type="text"  class="rounded"></td>
+                    </tr>
 
-                <label for="">Contact :</label>
-                <br>
-                <input type="text">
-    
-                <br>
-                <br>
-                
-    
-                <button class="p-15" id="login-submit">Submit</button>
-                
+                    <tr>
+                        <td>Contact: </td>
+                        <td><input type="text" class="rounded"></td>
+                    </tr>
+                </table>
+
+                <!-- Butoons of registration form -->
+                <div class="mt-3 p-2">
+
+                    <div class="d-flex justify-content-center mb-3">
+                        <button class="rounded w-50 button-design mt-2"><a href="" class="text-decoration-none text-black">Submit</a></button>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <h4 class="me-2">Have an account?</h4>
+                        <button class="rounded w-25  button-design"><a href="login.html" class="text-decoration-none text-black">Login</a></button>
+                    </div>
+                </div>
         
             </form>
         </div>
-    </div>
+    </section>
 
-    <!-- <style>
-	
-        .form{
-            margin-left:400px;
-            padding:10px 20px;
-            font-size:20px;
-        }
-        .form input{
-            height:40px;
-            width:300px;
-             border: 1px solid black;
-             border-radius: 10px;
-        }
-        .form input:focus{
-            background-color: lightblue;
-        }
-        
-        .form input[type=submit]{
-            height:40px;
-            width:150px; 
-        }
-        .form input[type=reset]{
-            height:40px;
-            width:150px; 
-        }
-        .form input[type=reset]:focus{
-            background-color: lightblue;
-        }
-        button{
-            height:40px;
-            width:150px;
-            background-color:lightblue;
-            
-        }
-        button a{
-             color:black;
-             text-decoration:none;
-            
-            
-        }
-        
-        
-        
-        </style>
-
-
-    <form class="form" action="" method="post">
-
-        <table>
-        <tr>
-         <td>Username:</td>
-         <td><input type="text" name="username" placeholder="Please enter 
-          Username"/></td>
-        </tr>
-        
-        <tr>
-         <td>Firstname:</td>
-         <td><input type="text" name="firstname" placeholder="Please enter 
-          firstname"/></td>
-       </tr>
-        
-        <tr>
-         <td>Lastname:</td>
-         <td><input type="text" name="lastname" placeholder="Please enter 
-          lastname"/></td>
-        </tr>
-   
-        <tr>
-         <td>Email:</td>
-         <td><input type="email" name="email" placeholder="Please enter 
-          email"/></td>
-        </tr>
-   
-        <tr>
-         <td>password:</td>
-         <td><input type="password" name="password"  placeholder="password should minimum 8 digit"/></td>
-        </tr>
-   
-        <tr>
-         <td>conpassword:</td>
-         <td><input type="password" name="conpassword"   placeholder="password should minimum 8 digit"/></td>
-        </tr>
-        
-        <tr>
-         <td>contact:</td>
-         <td><input type="text" name="contact"   placeholder="password should minimum 8 digit"/></td>
-        </tr>
-        
-        <tr>
-         <td></td>
-         <td>
-         <input type="submit" name="submit" value="Submit"/>
-         <input type="reset" Value="Cancel" />
-         </td>
-        </tr>
-        <tr>
-            <td>Login page:</td>
-         <td><button><a href="../login/login.php">Login</a></button></td>
-        </tr>
-        
-   
-       </table>
-   </form>  -->
 
     <!--Bootstrap script linkup-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
