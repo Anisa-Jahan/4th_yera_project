@@ -1,8 +1,3 @@
-/* .headline{
-    color: brown;
-    text-decoration: underline;
-    text-shadow: 2px 2px 4px #000000;
-} */
 
 .headline{
     color: white;
@@ -10,3 +5,7 @@
     text-decoration: underline;
 }
 
+/* Travel page design */
+.travel-h1{
+    font-size: 100px;
+}
