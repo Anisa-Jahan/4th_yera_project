@@ -1,11 +1,30 @@
 
+/* 
 .headline{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     text-decoration: underline;
-}
+} */
 
 /* Travel page design */
 .travel-h1{
-    font-size: 100px;
+    font-size: 80px;
 }
+
+/* Transport page design */
+
+.container {
+    position: relative;
+    max-width: 900px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 97.3%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
